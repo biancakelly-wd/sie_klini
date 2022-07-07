@@ -1,4 +1,7 @@
 import "./style.css";
+import AnsDesktop from "../../assets/img/ans-desktop.png" 
+import AnsDesktop from "../../assets/img/ans-desktop.png"
+import AnsDesktop from "../../assets/img/ans-desktop.png"
 
 
    
@@ -6,7 +9,7 @@ import "./style.css";
 
 
 
-function PageConheca(){
+function Footer(){
 
 
     return(
@@ -26,4 +29,4 @@ function PageConheca(){
     
  )  
 }
-export default PageConheca;
+export default Footer;

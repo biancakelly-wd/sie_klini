@@ -1,0 +1,46 @@
+.componentes{
+    width: 100%;
+    display: flex;
+    box-shadow: 7px 7px 13px 0 rgb(50 50 50 / 22%);
+    background-color: #ffff;
+    height: 5rem;
+}
+.logo-klini{
+    cursor: pointer;
+    width: 7%;
+    height: 50px;
+    margin-left: 4%;
+    margin-top: 1%;
+}
+.menu-opition{
+    cursor: pointer;
+    width: 66%;
+    display: flex;
+    font-size: 6pt;
+    font-family: aileron, sans-serif;
+    font-weight: lighter;
+    gap: 10%;
+    margin-left: 10%;
+    margin-top: 2%;
+    color: #5F5F5F
+}
+.icones-social{
+    display: flex;
+    gap: 6%;
+    width: 35%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 1%;
+    cursor: pointer;
+}
+#linha{
+    width: 124px;
+    border: 2px solid #F28580;
+    margin-left: -4%;
+    margin-top: 3%;
+}
+
+
