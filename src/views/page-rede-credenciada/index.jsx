@@ -1,4 +1,4 @@
-import "./style.css";
+import "./estyle.css";
 import Header from "../components/header";
 import Footer from "../components/footer";
 
@@ -8,7 +8,7 @@ import Footer from "../components/footer";
 
 
 
-function PageConheca(){
+function PageRedeCredenciada(){
 
 
     return(
@@ -31,4 +31,4 @@ function PageConheca(){
     
  )  
 }
-export default PageConheca;
+export default PageRedeCredenciada;
