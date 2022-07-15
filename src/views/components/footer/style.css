@@ -67,26 +67,31 @@
 }
 .atendimento{
     display: block;
-    font-size: 7pt;
+    font-size: 8pt;
     margin-left: 8%;
     color: #ffff;
 }
 .text-cainais{
     display: block;
+    font-size: 9pt;
 }
 .canais-mobile{
-    margin-top: 3%;
+    margin-top: 8%;
     margin-left: 9%;
-    font-size: 7pt;
+    font-size: 9pt;
     color: #ffff;
+}
+.canais-mob{
+    font-size: 19pt;
 }
 
 #linha-vertical {
-    height: 156px;
+    height: 263px;
     border-right: 1px solid #ffff;
-    margin-top: -86%;
+    margin-top: -131%;
     margin-right: -48%;
-} 
+}
+
 .redes-sociais{
     display: flex;
     margin-left: 126px;

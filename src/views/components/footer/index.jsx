@@ -29,21 +29,23 @@ import lik from "../../assets/img/lik.png"
             <div className="contatos-atendimento">
                 <div className="atendimento">
                     <h1 >Atendimento</h1>
-                    
+                  <div className="canais-m">  
                     <h1 className="canais-mob">(21) 3952-9191</h1>
-                    <h1 className="text-canais">Central de Atendimento SAC</h1>
+                    <h1 className="canais-mob">(21) 0800-941-7920</h1>
+                    <h2 className="text-canais">Central de Atendimento SAC</h2>
                     <h1 className="canais-mob">0800-941-9601 </h1>
-                    <h1 className="text-canais">Atendimento Deficiente Auditivo</h1>
+                    <h2 className="text-canais">Atendimento Deficiente Auditivo</h2>
+                    </div>
                 </div>
                 <div className="canais-mobile">
-                    <h1>(21) 3952-9110</h1>
-                    <h1 className="text-canais">Atendimento Ouvidoria</h1>
+                    <h1 className="canais-mob">(21) 3952-9110</h1>
+                    <h2 className="text-canais">Atendimento Ouvidoria</h2>
                     <h1 className="canais-mob">(21) 39529190</h1>
-                    <h1 className="text-canais">Atendimento Serviços</h1>
+                    <h2 className="text-canais">Atendimento Serviços</h2>
                     <div id="linha-vertical"></div>
                 </div>
                         <div className="redes-sociais">
-                            <h1 className="rede-s">Redes sociais</h1>
+                            <h2 className="rede-s">Redes sociais</h2>
                                 <div className="icon-redes">
                                     <img className="face" src={Face} />
                                     <img className="insta" src={Insta} />

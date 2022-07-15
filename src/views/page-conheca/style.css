@@ -1,0 +1,42 @@
+.conheca{
+    width: 100%;
+    display: flex;
+}
+
+.cabecalho{
+    display: block;
+    width: 30%;
+    margin-left: 13%;
+    font-family: aileron, sans-serif;
+}
+.titulo{
+    color: #32D1AE;
+    font-weight: bold;
+    font-family: aileron, sans-serif;
+    font-size: 30pt;
+}
+.sub-titulo{
+    color: #333333;
+    font-weight: bold;
+    font-family: aileron, sans-serif;
+    font-size: 30pt;
+}
+.klini-video{
+
+    width: 500px;
+    aspect-ratio: auto 500 / 320;
+    height: 320px;
+    margin-top: 5%;
+    margin-left: 10%;
+    
+}
+.setas{
+    display: block;
+    position: relative;
+}
+.divisoria-quadrados{
+    position: absolute;
+    margin-top: -15%;
+    
+    
+}

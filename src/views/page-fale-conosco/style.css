@@ -2,7 +2,7 @@
     width: 100vw;
     display: flex;
     background-color: #32D1AE;
-    height: 33rem;
+    height: 34rem;
     z-index: -1;
 }
 
@@ -11,10 +11,65 @@
     margin-left: 9%;
     width: 26%;
 }
+#col2{
+    display: grid;
+    margin-top: 11%;
+    width: 25%;
+    margin-left: 5%;
+}
 
 .white-bold{
-    font-size: 32pt;
+    font-size: 24pt;
     color: #FFFF;
     font-weight: bold;
     font-family: aileron, sans-serif;
+}
+.assunto, .nome, .email, .number{
+    width: 28%;
+    height: 2.5rem;
+    border-radius: 2rem;
+    margin-bottom: -1%;
+    font-family: aileron, sans-serif;
+    font-size: 13pt;
+    color: #707070;
+   
+    border: 0;
+    box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22);
+    background-color: #FFFFFF;
+    text-align: left;
+   
+    margin: 2% 0 0 0%;
+    width: 90%;
+    height: 1%;
+    height: 2.5rem;
+}
+.mensagem{
+    border-radius: 22px;
+    height: 86px;
+    width: 300px;
+}
+.send-bottom{
+    background-color: #F68881;
+    width: 81%;
+    height: 2.5rem;
+    border-radius: 2rem;
+    margin-bottom: -1%;
+    font-family: aileron, sans-serif;
+    font-size: 13pt;
+    color: #FFFFFF;
+    border: 0;
+    box-shadow: 7px 7px 13px 0 rgb(50 50 50 / 22%);
+    margin: 2% 0 -12% 0%;
+    height: 1%;
+    height: 1.8rem;
+    text-align: center;
+    padding-top: 2%;
+    margin-left: 5%;
+    cursor: pointer;
+
+}
+.envio{
+    width: 12%;
+    margin-left: 10%;
+    margin-top: 2%;
 }
