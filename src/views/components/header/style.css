@@ -1,9 +1,11 @@
 .componentes{
-    width: 100%;
+    width: 100vw;
     display: flex;
     box-shadow: 7px 7px 13px 0 rgb(50 50 50 / 22%);
     background-color: #ffff;
     height: 5rem;
+    position: absolute;
+    z-index: 1;
 }
 .logo-klini{
     cursor: pointer;
