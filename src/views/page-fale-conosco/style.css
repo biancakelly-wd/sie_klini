@@ -1,5 +1,12 @@
-.formulario{
+.principal{
+    display: block;
     width: 100vw;
+    margin: 1 auto;
+}
+
+
+.formulario{
+    width: 100%;
     display: flex;
     background-color: #32D1AE;
     height: 34rem;
@@ -46,7 +53,8 @@
 .mensagem{
     border-radius: 22px;
     height: 86px;
-    width: 300px;
+    width: 282px;
+    background-color: white;
 }
 .send-bottom{
     background-color: #F68881;
@@ -72,4 +80,135 @@
     width: 12%;
     margin-left: 10%;
     margin-top: 2%;
+}
+#col3{
+    width: 30%;
+    
+}
+#linha-vertical {
+    display: flex;
+    height: 368px !important;
+    border-right: 1px solid #ffff;
+    margin-top: -19% !important;
+    margin-right: 95% !important;
+}
+.whtasap-logo{
+    margin-top: 31%;
+    margin-left: 46%;
+    margin-bottom: 10%;
+}
+.contato-zap{
+    margin-top: -90%;
+    margin-left: 16%;
+    text-align: center;
+}
+span{
+    color: #FFFF;
+}
+.canais-klini{
+    display: block;
+    width: 100%;
+    height: 80%;
+    margin-bottom: 7%;
+    
+}
+.altorizacao{
+    color: #F68881;
+    margin-top: 4%;
+    text-align: center;
+    align-items: center;
+    width: 21%;
+    font-size: 10pt;
+    margin-left: 40%
+   
+}
+.tex-canais{
+    text-align: center;
+    margin-top: 10%;
+    font-family: Aileron;
+    font-weight: bold;
+    margin-left: 6%;
+}
+h1{
+    font-family: Aileron; 
+    font-weight: bold;
+    
+}
+h2, h3, h4{
+    font-family: Aileron;
+    font-weight: lighter;
+}
+.atendimento-klini{
+    width: 33%;
+    display: flex;
+    margin-left: 70%;
+    margin-top: 5%;
+    gap: 44%
+}
+
+.suporte-logo{
+    width: 25%;
+    
+}
+
+
+.sac-logo{
+    width: 28%;
+    text-align: center;
+
+}
+.vendas-logo{
+    width: 23%;
+    text-align: center;
+}.suporte{
+    margin-left: -156%;
+    width: 70%;
+    text-align: center;
+}
+.sac{
+    margin-left: -28%;
+    text-align: center;
+}
+.vendas{
+    width: 97%;
+    margin-left: -37%;
+    text-align: center;
+
+    
+    
+}
+.text-atendimento{
+    font-size: 13pt;
+    font-family: Aileron;
+    font-weight: bold;
+}
+.contatos-tel{
+    height: 3%;
+    font-size: 13pt;
+    margin-top: -2%;
+    color: #32D1AE;
+    font-weight: bold;
+    
+}
+.chamar-zap{
+    font-size: 19pt;
+}
+.grey-text{
+    font-size: 13pt;
+}
+.text-duvida{
+    font-family: Aileron;
+    font-weight: lighter;
+}
+.telefone-envio{
+    text-decoration: underline;
+}
+.numero-text{
+    margin-left: 5%;
+}
+.telefone-envio{
+    display: inline-flex;
+}
+.num-text{
+    display: inline;
 }

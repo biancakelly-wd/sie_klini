@@ -42,7 +42,7 @@ import lik from "../../assets/img/lik.png"
                     <h2 className="text-canais">Atendimento Ouvidoria</h2>
                     <h1 className="canais-mob">(21) 39529190</h1>
                     <h2 className="text-canais">Atendimento Serviços</h2>
-                    <div id="linha-vertical"></div>
+                    <div id="linha-verticall"></div>
                 </div>
                         <div className="redes-sociais">
                             <h2 className="rede-s">Redes sociais</h2>
