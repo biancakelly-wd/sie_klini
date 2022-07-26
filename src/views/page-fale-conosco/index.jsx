@@ -6,8 +6,12 @@ import WhatsappLogo from "../assets/img/whtasap-logo.png";
 import SuporteLogo from "../assets/img/suporte-logo.png";
 import SacLogo from "../assets/img/sac-logo.png";
 import VendasLogo from "../assets/img/vendas-logo.png";
+import SetaOption from "../assets/img/seta-opition.png"
 
 function FaleConosco() {
+    const msg= (e) =>{
+        alert('Mensagem não enviada, entre em contato pelo whatsapp');
+       }
     return(
         <>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
@@ -20,12 +24,19 @@ function FaleConosco() {
                 </div>
 
                 <div id='col2'>
-                    <input type="text" name="assunto" className="assunto"/>
-                    <input type="text" name="nome" className="nome"/>
-                    <input type="email" name="email" className="email"/>
-                    <input type="number" name="number" className="number"/>
-                    <input type="text" name="mensagem" className="mensagem"/>
-                    <div className="send-bottom">Enviar mensagem<img className="envio"src={Envio}/> </div>   
+                <img className="seta-opition" src={SetaOption}/>
+                    <select name="assunto" className="assunto" >
+                        <option value="assunto">Assunto</option>
+                        <option value="2">Elogio</option>
+                        <option value="3">Indicação de Rede</option>
+                        <option value="3">Reclamação</option>
+                        <option value="3">Outros</option>
+                  </select>
+                    <input type="text" name="nome"placeholder= 'Nome'className="nome"/>
+                    <input type="email" name="email" placeholder= 'E-mail'className="email"/>
+                    <input type="number" name="number" placeholder= 'Telefone'className="number"/>
+                    <input type="text" name="mensagem" placeholder= 'Mensagem'className="mensagem"/>
+                    <div  onClick={msg} className="send-bottom">Enviar mensagem<img className="envio"src={Envio}/> </div>   
                 </div>
                 <div id='col3'>
                     <img className="whtasap-logo" src={WhatsappLogo}/>
@@ -35,7 +46,7 @@ function FaleConosco() {
                         <h1 className='chamar-zap'>Chame a gente no <span>WhatsApp</span>, através do Atendimento Digital:</h1>
                         <h3 className='save-text'>Salve o nosso número</h3>
                         <div className='envio-tel'>
-                        <h3 className='num-text'><div className='telefone-envio'>(21) 3952-9119</div> e envie um "Oi".</h3>
+                            <h3 className='num-text'><div className='telefone-envio'>(21) 3952-9119</div> e envie um "Oi".</h3>
                         </div>
                         <h3 className='numero-text'>Agora é só digitar a opção desejada, e falar conosco.</h3>
                         <h3 className='numero-text'>Atendimento de segunda a sexta-feira das 7 às 19h.</h3>
