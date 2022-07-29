@@ -230,10 +230,18 @@ h2, h3, h4{
     width: 1.9%;
 }
 
+body, html {
+    overflow-x: hidden !important;
+    }
 
     
 
 @media (max-width: 600px){
+    
+    body, html {
+        overflow-x: hidden!important;
+    }
+    
     .icones-social{
         display: none;
     }
