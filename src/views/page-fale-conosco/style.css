@@ -250,10 +250,148 @@ body, html {
     }
     .componentes {
         width: 100%;
+        margin-bottom: -5%;
     }
     .logo-klini {
+        width: 13%;
+        height: 41%;
+        margin-top: 4%;
     
     }
+    .formulario {
+        width: 100%;
+        display: block;
+        margin-top: -22%;
+    }
+    .white-bold {
+        font-size: 23pt;
+        color: #FFFF;
+        font-weight: bold;
+        font-family: aileron, sans-serif;
+        margin-top: 69%;
+        padding: 40%;
+        width: 300%;
+        margin-left: -40%;
+    }
+    .grey-text {
+        font-size: 11pt;
+        width: 274%;
+        margin-left: 2%;
+        margin-top: -26%;
+    }
+    .col2 {
+        display: grid;
+    margin-top: -3%;
+    width: 25%;
+    margin-left: 12%;
+    justify-items: center;
+    }
+    .mensagem {
+        border-radius: 10px;
+        height: 86px;
+        width: 282px;
+        background-color: white;
+        font-size: 12pt;
+        margin-top: 16%;
+        padding: 5%;
+        margin-bottom: -9%;
+    }
+    .number{
+        margin-top: 10%;
+        margin-bottom: -8%;
+        width: 104%;
+        border-radius: 7px;
+    }
+    .email{
+        margin-top: 7%;
+    margin-bottom: -2%;
+    width: 104%;
+    border-radius: 7px;
+    }
+    .nome{
+        margin-top: 10%;
+        margin-bottom: -1%;
+        width: 104%;
+        border-radius: 7px;
+    }
+    .assunto{
+        margin-top: 10%;
+        margin-bottom: -3%;
+        width: 112%;
+        border-radius: 7px;
+    }
+    .seta-opition {
+        position: absolute;
+        margin-top: 10.7%;
+        margin-left: 56.8%;
+        width: 6.9%;
+    }
+    .send-bottom{
+        margin-top: 21%;
+        margin-bottom: -3%;
+        width: 109%;
+        border-radius: 7px;
+        margin-left: -2%;
+    }
+    .altorizacao{
+        width: 72%;
+        margin-top: 47%;
+        margin-left: 11%;
+    }
+    .tex-canais {
+        display: none;
+    }
+    .chamar-zap {
+        font-size: 19pt;
+        width: 129%;
+    }
+    .sac-logo, .suporte-logo,.vendas-logo {
+        display: none;
+    }
+    .contato-zap{
+        margin-top: -100%;
+        margin-left: 13%;
+        width: 57%;
+    }
+    .text-atendimento{
+        margin-top: 100%;
+    }
+    .atendimento-klini{
+        display: block;
+    }
+    .canais-klini {
+        margin-top: 104%;
+    }
+    .save-text{
+        margin-left: 25%;
+        font-size: 12pt;
+        margin-top: 14%;
+    }
+    .num-text {
+        display: inline;
+        margin-right: -27%;
+    }
+    .numero-text {
+        width: 128%;
+    }
+    .telefone-envio{
+        font-weight: bold;
+    }
+    .envio-tel{    
+        display: flex;
+        width: 80%;
+        margin-left: 13%;
+        margin-top: -11%;
+    }
+    span{
+        color: #32D1AE;
+    }
+    .suporte {
+    margin-left: -147%;
+    width: 217%;
+    text-align: center;
+    font-size: 12pt;
+}
 
 
 
