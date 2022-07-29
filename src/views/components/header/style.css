@@ -1,5 +1,5 @@
 .componentes{
-    width: 100vw;
+    width: 100%;
     display: flex;
     box-shadow: 7px 7px 13px 0 rgb(50 50 50 / 22%);
     background-color: #ffff;
@@ -14,17 +14,17 @@
     margin-left: 4%;
     margin-top: 1%;
 }
-.menu-opition{
+.menu-opition {
     cursor: pointer;
-    width: 66%;
+    width: 57%;
     display: flex;
-    font-size: 6pt;
+    font-size: 5pt;
     font-family: aileron, sans-serif;
     font-weight: lighter;
-    gap: 10%;
-    margin-left: 10%;
+    gap: 6%;
+    margin-left: 7%;
     margin-top: 2%;
-    color: #5F5F5F
+    color: #5F5F5F;
 }
 .icones-social{
     display: flex;

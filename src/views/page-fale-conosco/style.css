@@ -1,7 +1,7 @@
 .principal{
     display: block;
-    width: 100vw;
-    margin: 1 auto;
+    width: 100%;
+    
 }
 
 
@@ -13,37 +13,40 @@
     z-index: -1;
 }
 
-#col1{
-    margin-top: 9%;
+.col1{
+    margin-top: -1rem;
     margin-left: 9%;
     width: 26%;
 }
-#col2{
+.col2{
     display: grid;
     margin-top: 11%;
     width: 25%;
-    margin-left: 5%;
+    margin-left: 7%;
 }
 
 .white-bold{
-    font-size: 24pt;
+    font-size: 16pt;
     color: #FFFF;
     font-weight: bold;
     font-family: aileron, sans-serif;
+    margin-top: 69%;
 }
+
 .assunto, .nome, .email, .number{
     width: 28%;
     height: 2.5rem;
     border-radius: 2rem;
     margin-bottom: -1%;
     font-family: aileron, sans-serif;
-    font-size: 13pt;
+    font-size: 12pt;
     color: #707070;
    
     border: 0;
     box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22);
     background-color: #FFFFFF;
     text-align: left;
+    padding-left: 6%;
    
     margin: 2% 0 0 0%;
     width: 90%;
@@ -52,6 +55,7 @@
 }
 .assunto{
     cursor: pointer;
+    width: 96%
 }
 
 .mensagem{
@@ -59,6 +63,7 @@
     height: 86px;
     width: 282px;
     background-color: white;
+    font-size: 12pt;
 }
 .send-bottom{
     background-color: #F68881;
@@ -97,14 +102,16 @@
     margin-right: 95% !important;
 }
 .whtasap-logo{
-    margin-top: 31%;
-    margin-left: 46%;
+    margin-top: 25%;
+    margin-left: 38%;
     margin-bottom: 10%;
 }
 .contato-zap{
-    margin-top: -90%;
-    margin-left: 16%;
+    margin-top: -61%;
+    margin-left: 20%;
     text-align: center;
+    width: 53%;
+    font-size: 10pt;
 }
 span{
     color: #FFFF;
@@ -123,7 +130,7 @@ span{
     align-items: center;
     width: 21%;
     font-size: 10pt;
-    margin-left: 40%
+    margin-left: 34%
    
 }
 .tex-canais{
@@ -131,7 +138,7 @@ span{
     margin-top: 10%;
     font-family: Aileron;
     font-weight: bold;
-    margin-left: 6%;
+    margin-left: -7%;
 }
 h1{
     font-family: Aileron; 
@@ -145,7 +152,7 @@ h2, h3, h4{
 .atendimento-klini{
     width: 33%;
     display: flex;
-    margin-left: 70%;
+    margin-left: 66%;
     margin-top: 5%;
     gap: 44%
 }
@@ -198,7 +205,7 @@ h2, h3, h4{
     font-size: 19pt;
 }
 .grey-text{
-    font-size: 13pt;
+    font-size: 9pt;
 }
 .text-duvida{
     font-family: Aileron;
@@ -219,6 +226,28 @@ h2, h3, h4{
 .seta-opition{
     position: absolute;
     margin-top: 1.7%;
-    margin-left: 20.5%;
-    width: 2%;
+    margin-left: 19.8%;
+    width: 1.9%;
+}
+
+
+    
+
+@media (max-width: 600px){
+    .icones-social{
+        display: none;
+    }
+    .menu-opition{
+        display: none;
+    }
+    .componentes {
+        width: 100%;
+    }
+    .logo-klini {
+    
+    }
+
+
+
+
 }

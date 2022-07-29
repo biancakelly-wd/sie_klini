@@ -6,7 +6,7 @@ import WhatsappLogo from "../assets/img/whtasap-logo.png";
 import SuporteLogo from "../assets/img/suporte-logo.png";
 import SacLogo from "../assets/img/sac-logo.png";
 import VendasLogo from "../assets/img/vendas-logo.png";
-import SetaOption from "../assets/img/seta-opition.png"
+import SetaOption from "../assets/img/seta-opition.png";
 
 function FaleConosco() {
     const msg= (e) =>{
@@ -14,16 +14,18 @@ function FaleConosco() {
        }
     return(
         <>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+        
         <Header />
         <div className='principal'>
             <div className='formulario'>
-                <div id='col1'>
-                    <h1 className='white-bold'>Tem alguma dúvida ou quer conversar com a gente?</h1>
-                    <h3 className='grey-text'>Preencha o formulário ou entre em contato conosco através das nossas centrais:</h3>
+                <div className='col1'>
+                    <div className='tex-formulario'>
+                        <h1 className='white-bold'>Tem alguma dúvida ou quer conversar com a gente?</h1>
+                        <h3 className='grey-text'>Preencha o formulário ou entre em contato conosco através das nossas centrais:</h3>
+                    </div>
                 </div>
 
-                <div id='col2'>
+                <div className='col2'>
                 <img className="seta-opition" src={SetaOption}/>
                     <select name="assunto" className="assunto" >
                         <option value="assunto">Assunto</option>
@@ -38,7 +40,7 @@ function FaleConosco() {
                     <input type="text" name="mensagem" placeholder= 'Mensagem'className="mensagem"/>
                     <div  onClick={msg} className="send-bottom">Enviar mensagem<img className="envio"src={Envio}/> </div>   
                 </div>
-                <div id='col3'>
+                <div className='col3'>
                     <img className="whtasap-logo" src={WhatsappLogo}/>
                     <div id="linha-vertical"></div>
                     
