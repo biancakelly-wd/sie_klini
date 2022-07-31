@@ -1,4 +1,7 @@
 /*BODY {background-color: #EC9D25;}*/
+.colrede-cred{
+    display: flex;
+}
 .col1-rede{
     width: 40%;
     background-color: #EC9D25;
@@ -8,8 +11,11 @@
     
 
 .col2-rede{
+    display: flex;
     width: 60%;
     height: 80%;
+    margin-left: 7%;
+    margin-top: 3%;
     
 }
 .titulo-redecredenciada{
@@ -19,7 +25,9 @@
     text-align: center;
     margin-bottom: 5%;
     width: 119%;
-    margin-top: 0%;
+    margin-top: 0% !important;
+    padding: 10%;
+    margin-left: -12%;
 }
 .select-rede {
     width: 28%;
@@ -63,5 +71,35 @@
     margin-top: 10%;
 }
 .sel-redes{
-    margin-top: 16%;
+    margin-bottom: -9%;
+}
+.nome-d{
+    font-size: 8pt;
+    display: inline;
+    font-weight: bold;
+    font-family: aileron;
+}
+.seta-indica {
+    width: 2%;
+    margin-left: 2%;
+}
+#linha-nomer{
+    width: 93%;
+    border: 1px solid #707070;
+}
+#linha-bairro{
+    width: 71%;
+    border: 1px solid #707070;
+}
+#linha-sectionr{
+    width: 162%;
+    border: 1px solid #707070;
+    margin-top: 56%;
+    margin-left: -85%;
+
+}
+.Corpo-Movimento{
+    color: #32D1AE;
+    font-weight: bold;
+    font-family: aileron;
 }
