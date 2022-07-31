@@ -50,5 +50,12 @@ app.get('/getServico', (req, res) => {
         if (err) console.log(err);
         else res.send(filterServico);
     });
-})
+});
+
+//GET BAIRRO
+
+//GET CIDADE
+
+//GET ESPECIALIDADES
+
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))

@@ -19,11 +19,11 @@ function Header(){
         <div className="componentes">
             <img className="logo-klini" src={LogoKlini}/>
             <div className="menu-opition">
-                <h1>Conheça a klini<div id="linha"></div></h1>
-                <h1>Rede klini</h1>
-                <h1>Blog</h1>
-                <h1>FAQ</h1>
-                <h1>Fale Conosco</h1>
+                <h1 className="page-option">Conheça a klini<div id="linha"></div></h1>
+                <h1 className="page-option">Rede klini<div id="linha"></div></h1>
+                <h1 className="page-option">Blog<div id="linha"></div></h1>
+                <h1 className="page-option">FAQ</h1>
+                <h1 className="page-option">Fale Conosco</h1>
             </div>
             
             <div className="icones-social"> 

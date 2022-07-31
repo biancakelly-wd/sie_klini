@@ -26,6 +26,10 @@
     margin-top: 2%;
     color: #5F5F5F;
 }
+
+.page-option:hover{
+   
+}
 .icones-social{
     display: flex;
     gap: 6%;
@@ -43,6 +47,10 @@
     border: 2px solid #F28580;
     margin-left: -4%;
     margin-top: 3%;
+    background: #F28580;
+}
+#linha:hover{
+   display: block;
 }
 
 
