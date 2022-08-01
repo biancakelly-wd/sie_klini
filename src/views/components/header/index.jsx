@@ -5,14 +5,13 @@ import IconInsta from "../../assets/img/icon-insta.png"
 import IconLinkd from "../../assets/img/icon-linkd.png"
 import User from "../../assets/img/User.png"
 
+
    
 
 
 
 
 function Header(){
-
-
     return(
         <>
         

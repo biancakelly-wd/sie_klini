@@ -52,10 +52,63 @@ app.get('/getServico', (req, res) => {
     });
 });
 
-//GET BAIRRO
-
 //GET CIDADE
+app.get('/getCidades', (req, res) => {
+    var SQL = `SELECT NOM_MUNICIPIO 
+            FROM rede_completa 
+            WHERE
+            DIVULGA_WEB = 'S'`;
+    
+    db.query(SQL, (err, result) => {
+        const setCidade = new Set();
+        const cidades = result;
+        const filterCidades = cidades.filter((cidade) =>{
+            const duplicatedCidade = setCidade.has(cidade.NOM_MUNICIPIO);
+            setCidade.add(cidade.NOM_MUNICIPIO)
+            return !duplicatedCidade;
+        })
+        if (err) console.log(err);
+        else res.send(filterCidades);
+    });
+});
+
+//GET BAIRRO
+app.get('/getBairros', (req, res) => {
+    var SQL = `SELECT NOM_BAIRRO 
+            FROM rede_completa 
+            WHERE
+            DIVULGA_WEB = 'S'`;
+    
+    db.query(SQL, (err, result) => {
+        const setBairro = new Set();
+        const bairros = result;
+        const filterBairros = bairros.filter((bairro) =>{
+            const duplicatedBairro = setBairro.has(bairro.NOM_BAIRRO);
+            setBairro.add(bairro.NOM_BAIRRO)
+            return !duplicatedBairro;
+        })
+        if (err) console.log(err);
+        else res.send(filterBairros);
+    });
+});
 
 //GET ESPECIALIDADES
-
+app.get('/getEspecialidade', (req, res) => {
+    var SQL = `SELECT  NOME_ESPECIALIDADE
+            FROM rede_completa 
+            WHERE
+            DIVULGA_WEB = 'S'`;
+    
+    db.query(SQL, (err, result) => {
+        const setEspecialidade = new Set();
+        const especialidades = result;
+        const filterEspecialidades = especialidades.filter((especialidade) =>{
+            const duplicatedEspecialidades = setEspecialidade.has(especialidade.NOME_ESPECIALIDADE);
+            setEspecialidade.add(especialidade.NOME_ESPECIALIDADE)
+            return !duplicatedEspecialidades;
+        })
+        if (err) console.log(err);
+        else res.send(filterEspecialidades);
+    });
+});
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))

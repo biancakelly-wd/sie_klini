@@ -3,7 +3,7 @@ import Header from "../components/header";
 import Footer from "../components/footer";
 import VerRede from "../assets/img/envio.png"
 import SetaIndica from "../assets/img/seta-indica.png";
-
+import React, {useState} from "react";
 
 
 
@@ -12,7 +12,15 @@ import SetaIndica from "../assets/img/seta-indica.png";
 
 function PageRedeCredenciada() {
 
+      const [values, setValues] = useState();
+      const handleChangeValues = (value) => {
+          setValues((prevValue) => ({
+              ...prevValue,
+              [value.target.name]: value.target.value,
+          }))
+      }
 
+      console.log(values);
       return (
             <>
                   <Header />
@@ -21,40 +29,30 @@ function PageRedeCredenciada() {
                               <div className="titulo-redecred">
                                     <h1 className="titulo-redecredenciada">Encontre nossa rede:</h1></div>
                               <div className="sel-redes"></div>
-                              <select name="rede" className="select-rede" >
-                                    <option value="escolha-plano">Escolha a rede desejada</option>
-                                    <option value="2">Rede Médica</option>
-                                    <option value="3">Rede Odontológica</option>
+                              <select onChange={handleChangeValues} name="rede" className="select-rede" >
+                                    <option value="">Escolha a rede desejada</option>
+                                    <option value="rede-medica">Rede Médica</option>
+                                    <option value="rede-odonto">Rede Odontológica</option>
                               </select>
-                              <select name="Plano" className="select-rede" >
-                                    <option value="escolha-plano">Escolha seu Plano</option>
-                                    <option value="2">KLINI RIO</option>
-                                    <option value="3">KLINI RIO</option>
-                                    <option value="3">KLINI RIO</option>
+                              <select onChange={handleChangeValues} name="Plano" className="select-rede" >
+                                    <option value="">Escolha seu Plano</option>
+                                   
                               </select>
-                              <select name="serviço" className="select-rede" >
-                                    <option value="escolha-plano">Qual o tipo de serviço</option>
-                                    <option value="2">KLINI RIO</option>
-                                    <option value="3">KLINI RIO</option>
-                                    <option value="3">KLINI RIO</option>
+                              <select onChange={handleChangeValues} name="serviço" className="select-rede" >
+                                    <option value="">Qual o tipo de serviço</option>
+                                    
                               </select>
-                              <select name="cidade" className="select-rede" >
-                                    <option value="escolha-plano">Escolha a cidade</option>
-                                    <option value="2">KLINI RIO</option>
-                                    <option value="3">KLINI RIO</option>
-                                    <option value="3">KLINI RIO</option>
+                              <select onChange={handleChangeValues} name="cidade" className="select-rede" >
+                                    <option value="">Escolha a cidade</option>
+                                    
                               </select>
-                              <select name="bairro" className="select-rede" >
-                                    <option value="escolha-plano">Escolha o bairro</option>
-                                    <option value="2">KLINI RIO</option>
-                                    <option value="3">KLINI RIO</option>
-                                    <option value="3">KLINI RIO</option>
+                              <select onChange={handleChangeValues} name="bairro" className="select-rede" >
+                                    <option value="">Escolha o bairro</option>
+                                    
                               </select>
-                              <select name="especialidade" className="select-rede" >
-                                    <option value="escolha-plano">Escolha a especialidade</option>
-                                    <option value="2">KLINI RIO</option>
-                                    <option value="3">KLINI RIO</option>
-                                    <option value="3">KLINI RIO</option>
+                              <select onChange={handleChangeValues} name="especialidade" className="select-rede" >
+                                    <option value="">Escolha a especialidade</option>
+                                   
                               </select>
                               <div className="verede-bottom">Ver rede médica<img className="envio" src={VerRede} /> </div>
 
