@@ -8,7 +8,8 @@ import Header from "./views/components/header";
 import Footer from "./views/components/footer";
 import PageConheca from "./views/page-conheca";
 import PageRedeCredenciada from "./views/page-rede-credenciada";
-import PageFaleConosco from "./views/page-fale-conosco"
+import PageFaleConosco from "./views/page-fale-conosco";
+
   export const Rotas = () => (
     <>
     <RoutesDOM>

@@ -4,20 +4,22 @@ import Footer from "../components/footer";
 import VerRede from "../assets/img/envio.png"
 import SetaIndica from "../assets/img/seta-indica.png";
 import React, {useState} from "react";
-
+import {useAuth} from "../../Providers/Auth"
+import { useContext } from "react";
 
 
 
 
 
 function PageRedeCredenciada() {
-
-      const [values, setValues] = useState();
+      const {planos} = useAuth();
+      const [values, setValues] = useState("");
       const handleChangeValues = (value) => {
           setValues((prevValue) => ({
               ...prevValue,
               [value.target.name]: value.target.value,
           }))
+         console.log(planos);
       }
 
       console.log(values);
@@ -29,7 +31,7 @@ function PageRedeCredenciada() {
                               <div className="titulo-redecred">
                                     <h1 className="titulo-redecredenciada">Encontre nossa rede:</h1></div>
                               <div className="sel-redes"></div>
-                              <select onChange={handleChangeValues} name="rede" className="select-rede" >
+                              <select onChange={handleChangeValues} value={values} name="rede" className="select-rede" >
                                     <option value="">Escolha a rede desejada</option>
                                     <option value="rede-medica">Rede Médica</option>
                                     <option value="rede-odonto">Rede Odontológica</option>
