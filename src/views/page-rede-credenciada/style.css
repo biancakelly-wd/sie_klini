@@ -79,27 +79,191 @@
     font-weight: bold;
     font-family: aileron;
 }
+.section1-Bairror{
+    margin-left: 25%;
+}
 .seta-indica {
-    width: 2%;
-    margin-left: 2%;
+    width: 4%;
+    margin-left: 3%;
+    color: #cccccc;
+}
+.seta-indica2{
+    width: 6%;
+    margin-left: 3%;
+    color: #cccccc;
+
 }
 #linha-nomer{
-    width: 93%;
-    border: 1px solid #707070;
+    width: 183%;
+    border: 0.1px solid #707070;
+    margin-left: -1%;
 }
 #linha-bairro{
-    width: 71%;
-    border: 1px solid #707070;
+    width: 225%;
+    border: 0.1px solid #707070;
 }
 #linha-sectionr{
-    width: 162%;
-    border: 1px solid #707070;
-    margin-top: 56%;
-    margin-left: -85%;
-
+    width: 347%;
+    border: 0.1px solid #707070;
+    margin-top: 16%;
+    margin-left: -2%;
+}
+#linha-sectionr2{
+    width: 581%;
+    border: 0.1px solid #707070;
+    margin-top: 71%;
+    margin-left: -343%;
 }
 .Corpo-Movimento{
     color: #32D1AE;
     font-weight: bold;
     font-family: aileron;
+    font-size: 10pt;
+}
+.aculputura{
+    font-size: 8pt;
+    margin-top: -6%;
+}
+.endereço-r{
+    font-size: 8pt;
+}
+.tel-rede{
+    width: 82%;
+    font-size: 8pt;
+    margin-left: 40%;
+    margin-top: -19%;
+}
+.end-mapa{
+    font-size: 10pt;
+    margin-top: 48%;
+}
+.mapa{
+    color: #3398CC;
+    text-decoration: underline;
+    font-size: 10pt;
+    margin-top: -10%;
+}
+.tel-r{
+    font-size: 10pt;
+    font-weight: bold;
+    font-family: aileron;
+}
+
+
+
+@media (max-width: 600px){
+    .colrede-cred {
+        display: block;
+        width: 250%;
+    }
+    .titulo-redecredenciada{
+        margin-left: -20%;
+    }
+    .select-rede {
+        width: 28%;
+        height: 2.5rem;
+        border-radius: 11px;
+        margin-bottom: -1%;
+        font-family: aileron, sans-serif;
+        font-size: 10pt;
+        color: #707070;
+        border: 0;
+        box-shadow: 7px 7px 13px 0 rgb(50 50 50 / 22%);
+        background-color: #FFFFFF;
+        text-align: left;
+        padding-left: 5%;
+        margin: 3% 0 0 0%;
+        width: 80%;
+        height: 7%;
+        margin-left: 10%;
+        margin-top: 6%;
+        cursor: pointer;
+    }
+    .verede-bottom {
+        background-color: #32D1AE;
+        width: 69%;
+        height: 2.5rem;
+        border-radius: 7px;
+        margin-bottom: -1%;
+        font-family: aileron, sans-serif;
+        font-size: 11pt;
+        color: #FFFFFF;
+        border: 0;
+        box-shadow: 7px 7px 13px 0 rgb(50 50 50 / 22%);
+        margin: 2% 0 -12% 0%;
+        height: 1%;
+        height: 1.8rem;
+        text-align: center;
+        padding-top: 2%;
+        margin-left: 15%;
+        cursor: pointer;
+        margin-top: 16%;
+    }
+    .col1-rede {
+        width: 40%;
+        background-color: #EC9D25;
+        height: 79vh;
+    }
+    .col2-rede {
+        margin-left: 4%;
+        margin-bottom: 13%;
+    }
+    .section1-nome{
+        margin-bottom: -15%;
+        margin-top: 14%;
+
+    }
+    #linha-sectionr {
+        width: 182%;
+        border: 0.1px solid #707070;
+        margin-top: 13%;
+        margin-left: -2%
+
+    }
+    .section1-Bairror {
+        display: none;
+    }
+    .contatos {
+        display: block;
+        height: 709px;
+
+    }
+    .logo-klini {
+        width: 9%;
+        height: 6%;
+        margin-top: 2%;
+    }
+    .contatos-atendimento{
+        display: block;
+    }
+    .redes-sociais {
+        display: flex;
+        margin-left: 126px;
+        margin-top: 61%;
+    }
+    .atendimento-mobile {
+        display: block;
+    }
+    .contatos{
+        display: block;
+    }
+    .menu {
+        width: 100%;
+        height: 214px;
+        background-color: #9dc7d4;
+    }
+    #linha-verticall{
+        display: none;
+    }
+    .logo-klini {
+        width: 13%;
+        height: 41%;
+        margin-top: 4%;
+    }
+    .Corretores {
+        display: none;
+        
+    }
+    
+
 }
